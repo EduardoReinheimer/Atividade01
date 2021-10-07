@@ -2,114 +2,142 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <title>Formulário 1</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <title>Formulário 1</title>
 </head>
 
 <body>
-  <div class="card">
-    <h5 class="card-header">Formulário 01</h5>
-    <div class="card-body">
-      <h5 class="card-title">
-        Venha fazer parte do time de programadores da SourceCode
-      </h5>
-      <p class="card-text">
-        A Source Code é a empresa de software que mais cresce no sul do
-        nordeste da Itália Oriental. Somos conhecidos por entregar os sites
-        mais topperson aos clientes que contratam os nossos serviços. Até
-        porque eles nos pagaram para isso. Acontece que temos mais clientes do
-        que imaginávamos e estamos precisando urgentemente de um desenvolvedor
-        Web para trabalhar no nosso próximo grande projeto: Um e-commerce de
-        fotos de calopsita dirigindo um Fiat Uno.
-      </p>
-      <p class="card-text">
-        Imprescindível para essa vaga conhecimentos básicos de HTML, CSS e JS,
-        será desejável conhecimento em NodeJS e Microsoft SQL Server. Elixir
-        também será um extra, pois estão falando disso, e se tá no hype, minha
-        empresa tem que estar no hype também.
-      </p class="card-text">
-      <h4 class="card-title">Requisitos</h4>
-      <br>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">HTML</li>
-        <li class="list-group-item">CSS</li>
-        <li class="list-group-item">Javascript</li>
-      </ul>
-      <br>
-      <h4 class="card-title">Desejável</h4>
-      <br>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">NodeJS</li>
-        <li class="list-group-item">Elixir</li>
-        <li class="list-group-item">MS SQL Server</li>
-      </ul>
-      <br />
-      <p class="card-text">
-        Se você se interessou pela vaga não deixe de preencher o formulário
-        abaixo e entraremos em contato com você champ!
-      </p>
-    </div>
-    <div class="card-body">
-      <form action="http://curvello.com/yoda.php" method="POST">
-        <div class="form-group">
-          <legend>Formulário Inscrição</legend>
-          <div class="row">
-            <div class="col">
-              <label for="nome">Nome</label>
-              <input type="nome" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" />
-            </div>
-            <div class="col">
-              <label for="sobrenome">Sobrenome</label>
-              <input id="sobrenome" class="form-control" name="sobrenome" placeholder="Digite seu sobrenome" />
-            </div>
-          </div>
-          <br />
-          <label for="email">Endereço de e-mail</label>
-          <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
-            placeholder="Digite seu e-mail" />
-          <small id="emailHelp" class="form-text text-muted">Nós não iremos compartilhar seu endereço com
-            ninguém</small>
-          <br />
+    <div class="card">
+        <h5 class="card-header">Formulário 01</h5>
+        <div class="card-body">
+            <h5 class="card-title">
+                Venha fazer parte do time de programadores da SourceCode
+            </h5>
+            <!-- Descrição da vaga -->
+            <p class="card-text">
+                A Source Code é a empresa de software que mais cresce no sul do nordeste da Itália Oriental. Somos
+                conhecidos por entregar os sites mais topperson aos clientes que contratam os nossos serviços. Até
+                porque eles nos pagaram para isso. Acontece que temos
+                mais clientes do que imaginávamos e estamos precisando urgentemente de um desenvolvedor Web para
+                trabalhar no nosso próximo grande projeto: Um e-commerce de fotos de calopsita dirigindo um Fiat Uno.
+            </p>
+            <p class="card-text">
+                Imprescindível para essa vaga conhecimentos básicos de HTML, CSS e JS, será desejável conhecimento em
+                NodeJS e Microsoft SQL Server. Elixir também será um extra, pois estão falando disso, e se tá no hype,
+                minha empresa tem que estar no hype também.
+            </p class="card-text">
+            <h4 class="card-title">Requisitos</h4>
+            <br>
+            <!-- Lista requisitos -->
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">Javascript</li>
+            </ul>
+            <br>
+            <h4 class="card-title">Desejável</h4>
+            <br>
+            <!-- Lista desejáveis -->
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">NodeJS</li>
+                <li class="list-group-item">Elixir</li>
+                <li class="list-group-item">MS SQL Server</li>
+            </ul>
+            <br />
+            <p class="card-text">
+                Se você se interessou pela vaga não deixe de preencher o formulário abaixo e entraremos em contato com
+                você champ!
+            </p>
         </div>
-        <div class="row">
-          <div class="col">
-            <label for="sexo">Sexo</label>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="sexo" id="feminino" value="feminino">
-              <label class="form-check-label" for="feminino">
-                Feminino
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino">
-              <label class="form-check-label" for="masculino">
-                Masculino
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="sexo" id="outros" value="outros">
-              <label class="form-check-label" for="outros">
-                Outros
-              </label>
-            </div>
-          </div>
-          <div class="col">
-            <input type="text" name="" id="">
-          </div>
-          <div class="col">
-            <input type="text" name="" id="">
-          </div>
-          <div class="col">
-            <input type="text" name="" id="">
-          </div>
+        <div class="card-body">
+            <!-- Início formulário  -->
+            <form action="http://curvello.com/yoda.php" method="POST">
+                <div class="form-group">
+                    <legend>Formulário Inscrição</legend>
+                    <div class="row">
+                        <div class="col">
+                            <!-- Nome -->
+                            <label for="nome">Nome</label>
+                            <input type="nome" class="form-control" id="nome" name="nome"
+                                placeholder="Digite seu nome" />
+                        </div>
+                        <div class="col">
+                            <!-- Sobrenome -->
+                            <label for="sobrenome">Sobrenome</label>
+                            <input id="sobrenome" class="form-control" name="sobrenome"
+                                placeholder="Digite seu sobrenome" />
+                        </div>
+                    </div>
+                    <br />
+                    <!-- Email -->
+                    <label for="email">Endereço de e-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+                        placeholder="Digite seu e-mail" />
+                    <small id="emailHelp" class="form-text text-muted">Nós não iremos compartilhar seu endereço com
+                        ninguém</small>
+                    <br />
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- Sexo -->
+                        <label for="sexo">Sexo</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="sexo" id="feminino" value="feminino">
+                            <label class="form-check-label" for="feminino">
+                                Feminino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino">
+                            <label class="form-check-label" for="masculino">
+                                Masculino
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="sexo" id="outros" value="outros">
+                            <label class="form-check-label" for="outros">
+                                Outros
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Linguagens  -->
+                        <label for="linguagens">Sabe mais alguma linguagem? </label>
+                        <select class="form-control" name="linguagens" id="linguagens" multiple="multiple">
+                            <option value="Kotlin">Kotlin</option>
+                            <option value="Python">Python</option>
+                            <option value="csharp">C#</option>
+                            <option value="C">C</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <!-- Idiomas  -->
+                        <label for="idiomas">Fala algum desses idiomas? </label>
+                        <select class="form-control" name="idiomas" id="idiomas" multiple="multiple">
+                            <option value="Inglês">Inglês</option>
+                            <option value="Espanhol">Espanhol</option>
+                            <option value="Francês">Francês</option>
+                            <option value="Alemão">Alemão</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <!-- Currículo -->
+                        <div class="row">
+                            <label for="curriculo">Anexo currículo:</label>
+                            <input type="file" id="curriculo" name="curriculo">
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <input type="submit" class="btn btn-primary" value="Enviar">
+
+            </form>
         </div>
-        <br>
-        <input type="submit" class="btn btn-primary" value="Enviar">
-      </form>
     </div>
 </body>
 
